@@ -29,7 +29,7 @@ apis:
   tags: Deployments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/deployments/master/_listings/aws-codedeploy/action-getdeploymentconfig-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/deployments/master/_listings/aws-codedeploy/action-listdeploymentconfigs-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/codedeploy
