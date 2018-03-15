@@ -12,8 +12,8 @@ tags:
 - Stack Network
 - Orchestration
 - Amazon Web Services
-created: "2018-03-13"
-modified: "2018-03-13"
+created: "2018-03-15"
+modified: "2018-03-15"
 url: https://raw.githubusercontent.com/streamdata-gallery/deployments/master/_listings/aws-opsworks/apis.yaml
 specificationVersion: "0.14"
 apis:
