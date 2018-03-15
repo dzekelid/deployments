@@ -15,8 +15,8 @@ tags:
 - SDK
 - Orchestration
 - Amazon Web Services
-created: "2018-03-13"
-modified: "2018-03-13"
+created: "2018-03-15"
+modified: "2018-03-15"
 url: https://raw.githubusercontent.com/streamdata-gallery/deployments/master/_listings/aws-codedeploy/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -29,7 +29,7 @@ apis:
   tags: Deployments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/deployments/master/_listings/aws-codedeploy/action-stopdeployment-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/deployments/master/_listings/aws-codedeploy/action-batchgetdeployments-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/codedeploy
