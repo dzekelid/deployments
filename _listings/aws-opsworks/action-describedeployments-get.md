@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeDeployments&k=1:
+  /?Action=DescribeDeployments:
     get:
       summary: ' Describe Deployments '
       description: Requests a description of a specified set of deployments
