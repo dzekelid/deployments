@@ -40,7 +40,7 @@ apis:
   tags: Deployments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/github/repos-owner-repo-deployments-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/github/repos-owner-repo-deployments-post.md
 x-common:
 - type: x-net-library
   url: https://github.com/octokit/octokit.net
