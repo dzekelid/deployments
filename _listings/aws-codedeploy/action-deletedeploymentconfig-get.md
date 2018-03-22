@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteDeploymentConfig&k=1:
+  /?Action=DeleteDeploymentConfig:
     get:
       summary: ' Delete Deployment Config '
       description: Deletes a deployment configuration
