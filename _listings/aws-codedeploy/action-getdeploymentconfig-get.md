@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetDeploymentConfig&k=1:
+  /?Action=GetDeploymentConfig:
     get:
       summary: ' Get Deployment Config '
       description: Gets information about a deployment configuration
