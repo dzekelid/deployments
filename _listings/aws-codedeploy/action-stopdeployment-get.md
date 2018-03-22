@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=StopDeployment&k=1:
+  /?Action=StopDeployment:
     get:
       summary: ' Stop Deployment '
       description: Attempts to stop an ongoing deployment
