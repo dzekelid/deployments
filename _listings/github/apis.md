@@ -27,8 +27,8 @@ tags:
 - Code
 - Change Log Example
 - Change Log
-created: "2018-03-21"
-modified: "2018-03-21"
+created: "2018-03-23"
+modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/github/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -40,7 +40,7 @@ apis:
   tags: Deployments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/github/repos-owner-repo-deployments-id-statuses-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/github/repos-owner-repo-deployments-get.md
 x-common:
 - type: x-net-library
   url: https://github.com/octokit/octokit.net
