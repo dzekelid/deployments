@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS OpsWorks API
+  title: AWS OpsWorks API Describe Deployments
   version: 1.0.0
+  description: Requests a description of a specified set of deployments.
 schemes:
 - http
 produces:
