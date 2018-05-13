@@ -30,7 +30,36 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/aws-codedeploy/action-stopdeployment-get.md
+- name: AWS CodeDeploy API Batch Get Deployments
+  description: Gets information about one or more deployments.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-codedeploy.png
+  humanURL: https://aws.amazon.com/codedeploy/
+  baseURL: http:://{host}//
+  tags: Deployments
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/aws-codedeploy/action-batchgetdeployments-get.md
 x-common:
+- type: x-command-line-interface
+  url: http://docs.aws.amazon.com/cli/latest/reference/codedeploy
+- type: x-documentation
+  url: http://docs.aws.amazon.com/codedeploy/latest/APIReference
+- type: x-faq
+  url: https://aws.amazon.com/codedeploy/faqs/
+- type: x-forum
+  url: https://forums.aws.amazon.com/forum.jspa?forumID=179
+- type: x-getting-started
+  url: https://aws.amazon.com/codedeploy/getting-started/
+- type: x-integrations
+  url: https://aws.amazon.com/codedeploy/product-integrations/
+- type: x-partners
+  url: https://aws.amazon.com/solutions/partners/dev-ops/
+- type: x-pricing
+  url: https://aws.amazon.com/codedeploy/pricing/
+- type: x-tutorials
+  url: https://aws.amazon.com/codedeploy/developer-resources/#tutorials
+- type: x-website
+  url: https://aws.amazon.com/codedeploy/
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/codedeploy
 - type: x-documentation
