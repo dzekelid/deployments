@@ -1,10 +1,16 @@
 ---
 swagger: "2.0"
 info:
-  title: SubscriptionClient
-  description: All resource groups and resources exist within subscriptions. These
-    operation enable you get information about your subscriptions and tenants. A tenant
-    is a dedicated instance of Azure Active Directory (Azure AD) for your organization.
+  title: Azure Resource Manager API Deletes a deployment from the deployment history.
+  description: A template deployment that is currently running cannot be deleted.
+    Deleting a template deployment removes the associated deployment operations. Deleting
+    a template deployment does not affect the state of the resource group. This is
+    an asynchronous operation that returns a status of 202 until the template deployment
+    is successfully deleted. The Location response header contains the URI that is
+    used to obtain the status of the process. While the process is running, a call
+    to the URI in the Location header returns a status of 202. When the process finishes,
+    the URI in the Location header returns a status of 204 on success. If the asynchronous
+    request failed, the URI in the Location header returns an error-level status code.
   version: 1.0.0
 host: management.azure.com
 basePath: /
