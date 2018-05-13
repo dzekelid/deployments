@@ -27,17 +27,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/azure-resource-manager/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-resources-deployments-get.md
-- name: Azure Resource Manager API Deployments Check Existence
-  description: Checks whether the deployment exists.
+- name: Azure Resource Manager API Deploys resources to a resource group.
+  description: You can provide the template and parameters directly in the request
+    or link to JSON files.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-resource-manager.png
   humanURL: https://docs.microsoft.com/en-us/rest/api/resources/
   baseURL: http:://management.azure.com//
   tags: Deployments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/azure-resource-manager/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-resources-deployments-deploymentname-head.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/azure-resource-manager/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-resources-deployments-deploymentname-head-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/azure-resource-manager/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-resources-deployments-deploymentname-put.md
 x-common:
 - type: x-website
   url: https://docs.microsoft.com/en-us/rest/api/resources/
