@@ -1,10 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: SubscriptionClient
-  description: All resource groups and resources exist within subscriptions. These
-    operation enable you get information about your subscriptions and tenants. A tenant
-    is a dedicated instance of Azure Active Directory (Azure AD) for your organization.
+  title: Azure Resource Manager API Deploys resources to a resource group.
+  description: You can provide the template and parameters directly in the request
+    or link to JSON files.
   version: 1.0.0
 host: management.azure.com
 basePath: /
