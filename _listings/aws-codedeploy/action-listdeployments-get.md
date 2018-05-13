@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS CodeDeploy API
+  title: AWS CodeDeploy API List Deployments
   version: 1.0.0
+  description: |-
+    Lists the deployments in a deployment group for an application registered with the
+                applicable IAM user or AWS account.
 schemes:
 - http
 produces:
