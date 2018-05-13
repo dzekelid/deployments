@@ -24,8 +24,35 @@ created: "2018-03-24"
 modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/akamai/apis.yaml
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Akamai API Get a Certificate
+  description: Get a Certificate
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
+  humanURL: https://akamai.com
+  baseURL: https://developer.akamai.com//
+  tags: Deployments
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/akamai/cps-v2-enrollments-enrollmentid-deployments-production-get.md
 x-common:
+- type: x-base
+  url: https://api.ccu.akamai.com
+- type: x-blog
+  url: https://blogs.akamai.com
+- type: x-blog-rss
+  url: http://blogs.akamai.com/feeds.html
+- type: x-crunchbase
+  url: http://www.crunchbase.com/company/akamai-technologies
+- type: x-developer
+  url: https://developer.akamai.com/
+- type: x-email
+  url: open-developer@akamai.com
+- type: x-github
+  url: https://github.com/akamai
+- type: x-twitter
+  url: https://twitter.com/Akamai
+- type: x-website
+  url: https://akamai.com
 - type: x-base
   url: https://api.ccu.akamai.com
 - type: x-blog
