@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS CodeDeploy API
+  title: AWS CodeDeploy API Delete Deployment Config
   version: 1.0.0
+  description: Deletes a deployment configuration.
 schemes:
 - http
 produces:
