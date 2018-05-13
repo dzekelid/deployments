@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: APImetrics Merged API
+  title: APIMetrics Create a new Deployment
   version: 1.0.0
+  description: Create a new Deployment
 schemes:
 - http
 produces:
