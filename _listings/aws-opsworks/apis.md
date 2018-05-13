@@ -27,7 +27,22 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/aws-opsworks/action-describedeployments-get.md
+- name: AWS OpsWorks API Describe Deployments
+  description: Requests a description of a specified set of deployments.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
+  humanURL: https://aws.amazon.com/opsworks/
+  baseURL: http:://{host}//
+  tags: Deployments
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/aws-opsworks/action-describedeployments-get.md
 x-common:
+- type: x-command-line-interface
+  url: http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html
+- type: x-documentation
+  url: http://docs.aws.amazon.com/opsworks/latest/APIReference/Welcome.html
+- type: x-website
+  url: https://aws.amazon.com/opsworks/
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html
 - type: x-documentation
