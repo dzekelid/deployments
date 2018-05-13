@@ -29,6 +29,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/apimetrics/deployments-id-put.md
+- name: APIMetrics Create a new Deployment
+  description: Create a new Deployment
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-metrics-logo.png
+  humanURL: http://apimetrics.io
+  baseURL: https://{host}//
+  tags: Deployments
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/apimetrics/deployments-post.md
 x-common:
 - type: x-base-url
   url: https://client.apimetrics.io
