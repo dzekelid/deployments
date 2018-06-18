@@ -10,10 +10,10 @@ description: AWS CodeDeploy is a service that automates code deployments to any 
   so you can easily deploy to one instance or thousands.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-codedeploy.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Deployments
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-18"
+modified: "2018-06-18"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/aws-codedeploy/apis.md
 specificationVersion: "0.14"
 apis:

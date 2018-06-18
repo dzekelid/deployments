@@ -1,10 +1,13 @@
 ---
 swagger: "2.0"
 x-collection-name: Azure Resource Manager
-x-complete: 1
+x-complete: 0
 info:
-  title: SubscriptionClient
-  description: all-resource-groups-and-resources-exist-within-subscriptions--these-operation-enable-you-get-information-about-your-subscriptions-and-tenants--a-tenant-is-a-dedicated-instance-of-azure-active-directory-azure-ad-for-your-organization-
+  title: Azure Resource Manager API Cancels a currently running template deployment.
+  description: You can cancel a deployment only if the provisioningState is Accepted
+    or Running. After the deployment is canceled, the provisioningState is set to
+    Canceled. Canceling a template deployment stops the currently running template
+    deployment and leaves the resource group partially deployed.
   version: 1.0.0
 host: management.azure.com
 basePath: /
@@ -130,74 +133,17 @@ paths:
           description: OK
       tags:
       - Deployments
-  ? /subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Resources/deployments/{deploymentName}/validate
-  : post:
-      summary: Deployments Validate
-      description: Validates whether the specified template is syntactically correct
-        and will be accepted by Azure Resource Manager..
-      operationId: Deployments_Validate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-resourcesdeploymentsdeploymentnamevalidate-post
-      parameters:
-      - in: path
-        name: deploymentName
-        description: The name of the deployment
-      - in: query
-        name: No Name
-      - in: body
-        name: parameters
-        description: Parameters to validate
-        schema:
-          $ref: '#/definitions/holder'
-      - in: path
-        name: resourceGroupName
-        description: The name of the resource group the template will be deployed
-          to
-      responses:
-        200:
-          description: OK
-      tags:
-      - Deployments
-  ? /subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Resources/deployments/{deploymentName}/exportTemplate
-  : post:
-      summary: Deployments Export Template
-      description: Exports the template used for specified deployment.
-      operationId: Deployments_ExportTemplate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-resourcesdeploymentsdeploymentnameexporttemplate-post
-      parameters:
-      - in: path
-        name: deploymentName
-        description: The name of the deployment from which to get the template
-      - in: query
-        name: No Name
-      - in: path
-        name: resourceGroupName
-        description: The name of the resource group
-      responses:
-        200:
-          description: OK
-      tags:
-      - Deployments
-  /subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Resources/deployments/:
-    get:
-      summary: Deployments List
-      description: Get all the deployments for a resource group.
-      operationId: Deployments_List
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-resourcesdeployments-get
-      parameters:
-      - in: query
-        name: $filter
-        description: The filter to apply on the operation
-      - in: query
-        name: $top
-        description: The number of results to get
-      - in: query
-        name: No Name
-      - in: path
-        name: resourceGroupName
-        description: The name of the resource group with the deployments to get
-      responses:
-        200:
-          description: OK
-      tags:
-      - Deployments
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
 ---

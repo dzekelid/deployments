@@ -1,26 +1,21 @@
 ---
 name: APImetrics
 x-slug: apimetrics
-description: APImetrics builds on 3 years experience gained working on the challenge
-  of API abstraction and management that is critical to every App and Web Service
-  in use today. By combining elements gained from API management tools and authentication
-  technologies, APImetrics have been able to build the first, complete, end-to-end
-  API performance test solution. This allows developers, enterprises and API providers
-  to model complex API scenarios and provide them with real time monitoring and alerts
-  when things go wrong.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-metrics-logo.png
+description: API performance monitoring, Cloud Service, SLA monitoring and analysis
+  that gives you answers, not excuses. Find out how today.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1916-apimetrics.jpg
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "2264063"
 tags: Deployments
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-18"
+modified: "2018-06-18"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/apimetrics/apis.md
 specificationVersion: "0.14"
 apis:
 - name: APIMetrics List all Deployment
   x-api-slug: apimetrics
   description: List all Deployment
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-metrics-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1916-apimetrics.jpg
   humanURL: http://apimetrics.io
   baseURL: https://///deployments/
   tags: Monitoring,Deployments
@@ -32,7 +27,7 @@ apis:
 - name: APIMetrics Create a new Deployment
   x-api-slug: apimetrics
   description: Create a new Deployment
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-metrics-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1916-apimetrics.jpg
   humanURL: http://apimetrics.io
   baseURL: https://///deployments/
   tags: Monitoring,Deployments
@@ -42,7 +37,7 @@ apis:
 - name: APIMetrics Get all Deployments for an API Call
   x-api-slug: apimetrics
   description: Get all Deployments for an API Call
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-metrics-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1916-apimetrics.jpg
   humanURL: http://apimetrics.io
   baseURL: https://///deployments/call/{call_id}/
   tags: Monitoring,Deployments, Call, Call
@@ -52,7 +47,7 @@ apis:
 - name: APIMetrics Get all Deployments for a Workflow
   x-api-slug: apimetrics
   description: Get all Deployments for a Workflow
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-metrics-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1916-apimetrics.jpg
   humanURL: http://apimetrics.io
   baseURL: https://///deployments/workflow/{workflow_id}
   tags: Monitoring,Deployments, Workflow, Workflow
@@ -62,7 +57,7 @@ apis:
 - name: APIMetrics Delete a Deployment
   x-api-slug: apimetrics
   description: Delete a Deployment
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-metrics-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1916-apimetrics.jpg
   humanURL: http://apimetrics.io
   baseURL: https://///deployments/{id}/
   tags: Monitoring,Deployments
@@ -72,7 +67,7 @@ apis:
 - name: APIMetrics Get an existing Deployment
   x-api-slug: apimetrics
   description: Get an existing Deployment
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-metrics-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1916-apimetrics.jpg
   humanURL: http://apimetrics.io
   baseURL: https://///deployments/{id}/
   tags: Monitoring,Deployments
@@ -82,7 +77,7 @@ apis:
 - name: APIMetrics Update an existing Deployment
   x-api-slug: apimetrics
   description: Update an existing Deployment
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-metrics-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1916-apimetrics.jpg
   humanURL: http://apimetrics.io
   baseURL: https://///deployments/{id}/
   tags: Monitoring,Deployments
@@ -91,14 +86,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/apimetrics/deploymentsid-put-openapi.md
 - name: APIMetrics
   x-api-slug: apimetrics
-  description: APImetrics builds on 3 years experience gained working on the challenge
-    of API abstraction and management that is critical to every App and Web Service
-    in use today. By combining elements gained from API management tools and authentication
-    technologies, APImetrics have been able to build the first, complete, end-to-end
-    API performance test solution. This allows developers, enterprises and API providers
-    to model complex API scenarios and provide them with real time monitoring and
-    alerts when things go wrong.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-metrics-logo.png
+  description: API performance monitoring, Cloud Service, SLA monitoring and analysis
+    that gives you answers, not excuses. Find out how today.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1916-apimetrics.jpg
   humanURL: http://apimetrics.io
   baseURL: https:///
   tags: Deployments
@@ -112,6 +102,8 @@ x-common:
   url: http://apimetrics.io/blog/
 - type: x-blog-rss
   url: http://apimetrics.io/feed/
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/apimetrics
 - type: x-developer
   url: https://apimetrics.readme.io/
 - type: x-github

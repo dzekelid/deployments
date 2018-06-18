@@ -1,0 +1,131 @@
+---
+swagger: "2.0"
+x-collection-name: AppVeyor CI
+x-complete: 1
+info:
+  title: App Veyor
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
+  termsOfService: https://www.appveyor.com/terms-of-service/
+  contact:
+    name: AppVeyor Team
+    url: https://www.appveyor.com/about/
+    email: team@appveyor.com
+  version: 0.20170106.0
+host: ci.appveyor.com
+basePath: /api
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
+paths:
+  /deployments:
+    post:
+      summary: Post Deployments
+      description: Post deployments.
+      operationId: postDeployments
+      x-api-path-slug: deployments-post
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Deployments
+  /deployments/stop:
+    delete:
+      summary: Delete Deployments Stop
+      description: Delete deployments stop.
+      operationId: deleteDeploymentsStop
+      x-api-path-slug: deploymentsstop-delete
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Deployments
+      - Stop
+  /deployments/{deploymentId}:
+    get:
+      summary: Get Deployments Deploymentid
+      description: Get deployments deploymentid.
+      operationId: getDeploymentsDeployment
+      x-api-path-slug: deploymentsdeploymentid-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Deployments
+      - DeploymentId
+    parameters:
+      summary: Parameters Deployments Deploymentid
+      description: Parameters deployments deploymentid.
+      operationId: parametersDeploymentsDeployment
+      x-api-path-slug: deploymentsdeploymentid-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Deployments
+      - DeploymentId
+  /environments/{deploymentEnvironmentId}/deployments:
+    get:
+      summary: Get Environments Deploymentenvironmentid Deployments
+      description: Get environments deploymentenvironmentid deployments.
+      operationId: getEnvironmentsDeploymentenvironmentDeployments
+      x-api-path-slug: environmentsdeploymentenvironmentiddeployments-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Environments
+      - DeploymentEnvironmentId
+      - Deployments
+    parameters:
+      summary: Parameters Environments Deploymentenvironmentid Deployments
+      description: Parameters environments deploymentenvironmentid deployments.
+      operationId: parametersEnvironmentsDeploymentenvironmentDeployments
+      x-api-path-slug: environmentsdeploymentenvironmentiddeployments-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Environments
+      - DeploymentEnvironmentId
+      - Deployments
+  /projects/{accountName}/{projectSlug}/deployments:
+    get:
+      summary: Get Projects Accountname Projectslug Deployments
+      description: Get projects accountname projectslug deployments.
+      operationId: getProjectsAccountnameProjectslugDeployments
+      x-api-path-slug: projectsaccountnameprojectslugdeployments-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Projects
+      - AccountName
+      - ProjectSlug
+      - Deployments
+    parameters:
+      summary: Parameters Projects Accountname Projectslug Deployments
+      description: Parameters projects accountname projectslug deployments.
+      operationId: parametersProjectsAccountnameProjectslugDeployments
+      x-api-path-slug: projectsaccountnameprojectslugdeployments-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Projects
+      - AccountName
+      - ProjectSlug
+      - Deployments
+---
