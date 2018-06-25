@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-
 x-kinRank: "7"
 x-alexaRank: "35479"
 tags: Deployments
-created: "2018-06-18"
-modified: "2018-06-18"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/appveyor-ci/apis.md
 specificationVersion: "0.14"
 apis:

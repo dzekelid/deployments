@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1916-apime
 x-kinRank: "10"
 x-alexaRank: "2264063"
 tags: Deployments
-created: "2018-06-18"
-modified: "2018-06-18"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/apimetrics/apis.md
 specificationVersion: "0.14"
 apis:
