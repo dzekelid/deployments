@@ -128,4 +128,52 @@ paths:
       - AccountName
       - ProjectSlug
       - Deployments
+  /environments/{deploymentEnvironmentId}:
+    delete:
+      summary: Delete Environments Deploymentenvironmentid
+      description: Delete environments deploymentenvironmentid.
+      operationId: deleteEnvironmentsDeploymentenvironment
+      x-api-path-slug: environmentsdeploymentenvironmentid-delete
+      responses:
+        200:
+          description: OK
+      tags:
+      - Environments
+      - DeploymentEnvironmentId
+    parameters:
+      summary: Parameters Environments Deploymentenvironmentid
+      description: Parameters environments deploymentenvironmentid.
+      operationId: parametersEnvironmentsDeploymentenvironment
+      x-api-path-slug: environmentsdeploymentenvironmentid-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Environments
+      - DeploymentEnvironmentId
+  /environments/{deploymentEnvironmentId}/settings:
+    get:
+      summary: Get Environments Deploymentenvironmentid Settings
+      description: Get environments deploymentenvironmentid settings.
+      operationId: getEnvironmentsDeploymentenvironmentSettings
+      x-api-path-slug: environmentsdeploymentenvironmentidsettings-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Environments
+      - DeploymentEnvironmentId
+      - Settings
+    parameters:
+      summary: Parameters Environments Deploymentenvironmentid Settings
+      description: Parameters environments deploymentenvironmentid settings.
+      operationId: parametersEnvironmentsDeploymentenvironmentSettings
+      x-api-path-slug: environmentsdeploymentenvironmentidsettings-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Environments
+      - DeploymentEnvironmentId
+      - Settings
 ---

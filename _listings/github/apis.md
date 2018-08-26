@@ -8,72 +8,50 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "64"
 tags: Deployments
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/github/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Github Get Repos Owner Repo Deployments
-  x-api-slug: github
+- name: GitHub - Get Repos Owner Repo Deployments
+  x-api-slug: reposownerrepodeployments-get
   description: Users with pull access can view deployments for a repository
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/deployments
-  tags: Repos, Owner, Repo, Deployments
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/github/reposownerrepodeployments-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/github/reposownerrepodeployments-get-openapi.md
-- name: Github Add Repos Owner Repo Deployments
-  x-api-slug: github
-  description: Users with push access can create a deployment for a given ref
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
-  humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/deployments
-  tags: Repos, Owner, Repo, Deployments
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/github/reposownerrepodeployments-post-openapi.md
-- name: Github Get Repos Owner Repo Deployments  Statuses
-  x-api-slug: github
+- name: GitHub - Get Repos Owner Repo Deployments  Statuses
+  x-api-slug: reposownerrepodeploymentsidstatuses-get
   description: Users with pull access can view deployment statuses for a deployment
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/deployments/{id}/statuses
-  tags: Repos, Owner, Repo, Deployments, , Statuses
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/github/reposownerrepodeploymentsidstatuses-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/github/reposownerrepodeploymentsidstatuses-get-openapi.md
-- name: Github Add Repos Owner Repo Deployments  Statuses
-  x-api-slug: github
-  description: |-
-    Create a Deployment Status
-    Users with push access can create deployment statuses for a given deployment:
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
-  humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/deployments/{id}/statuses
-  tags: Repos, Owner, Repo, Deployments, , Statuses
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/github/reposownerrepodeploymentsidstatuses-post-openapi.md
-- name: Github
-  x-api-slug: github
-  description: GitHub brings together the worlds largest community of developers to
-    discover, share, and build better software. From open source projects to private
-    team repositories, were your all-in-one platform for collaborative development.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
-  humanURL: https://github.com
-  baseURL: https://api.github.com//
-  tags: Deployments
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/github/openapi.md
 x-common:
 - type: x--net-library
   url: https://github.com/octokit/octokit.net
+- type: x-api-gallery
+  url: http://giphy.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://github.stack.network
 - type: x-base
   url: https://api.github.com
 - type: x-blog
