@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Deployments
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/azure-resource-manager/apis.md
 specificationVersion: "0.14"
 apis:
@@ -48,6 +48,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-resourcesdeploymentsdeploymentname-head-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-resourcesdeploymentsdeploymentname-head-openapi.md
+- name: SubscriptionClient - Deploys resources to a resource group.
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-resourcesdeploymentsdeploymentname-put
+  description: You can provide the template and parameters directly in the request
+    or link to JSON files.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-resource-manager.png
+  humanURL: https://docs.microsoft.com/en-us/rest/api/resources/
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Resources, Links, API Service Provider, API Provider, Deployments,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-resourcesdeploymentsdeploymentname-put-openapi.md
 - name: SubscriptionClient - Deployments Get
   x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-resourcesdeploymentsdeploymentname-get
   description: Gets a deployment.
@@ -77,6 +89,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-resourcesdeploymentsdeploymentnamecancel-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-resourcesdeploymentsdeploymentnamecancel-post-openapi.md
+- name: SubscriptionClient - Deployments Validate
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-resourcesdeploymentsdeploymentnamevalidate-post
+  description: Validates whether the specified template is syntactically correct and
+    will be accepted by Azure Resource Manager..
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-resource-manager.png
+  humanURL: https://docs.microsoft.com/en-us/rest/api/resources/
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Resources, Links, API Service Provider, API Provider, Deployments,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-resourcesdeploymentsdeploymentnamevalidate-post-openapi.md
 - name: SubscriptionClient - Deployments Export Template
   x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-resourcesdeploymentsdeploymentnameexporttemplate-post
   description: Exports the template used for specified deployment.

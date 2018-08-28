@@ -9,11 +9,256 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Deployments
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/ibm-watson/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: IBM Watson Machine Learning API - Post Wml Instances Instance Published Models
+    Published Model Deployments
+  x-api-slug: wml-instancesinstance-idpublished-modelspublished-model-iddeployments-post
+  description: Creates the deployment - online, stream, batch (batch deployment only
+    supports Cloud Object Storage as input/output for Tensorflow, Keras and Caffe
+    models.)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
+  humanURL: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/
+  baseURL: https://ibm-watson-ml.mybluemix.net/v3/
+  tags: Machine Learning, Machine Learning, AI, API LIfeyclessss, Stack Network, Stack,
+    Getting Started Example, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/ibm-watson/wml-instancesinstance-idpublished-modelspublished-model-iddeployments-post-openapi.md
+- name: IBM Watson Machine Learning API - Get Wml Instances Instance Published Models
+    Published Model Deployments
+  x-api-slug: wml-instancesinstance-idpublished-modelspublished-model-iddeployments-get
+  description: Get wml instances instance published models published model deployments.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
+  humanURL: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/
+  baseURL: https://ibm-watson-ml.mybluemix.net/v3/
+  tags: Machine Learning, Machine Learning, AI, API LIfeyclessss, Stack Network, Stack,
+    Getting Started Example, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/ibm-watson/wml-instancesinstance-idpublished-modelspublished-model-iddeployments-get-openapi.md
+- name: IBM Watson Machine Learning API - Get Wml Instances Instance Published Models
+    Published Model Deployments Deployment
+  x-api-slug: wml-instancesinstance-idpublished-modelspublished-model-iddeploymentsdeployment-id-get
+  description: Get wml instances instance published models published model deployments
+    deployment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
+  humanURL: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/
+  baseURL: https://ibm-watson-ml.mybluemix.net/v3/
+  tags: Machine Learning, Machine Learning, AI, API LIfeyclessss, Stack Network, Stack,
+    Getting Started Example, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/ibm-watson/wml-instancesinstance-idpublished-modelspublished-model-iddeploymentsdeployment-id-get-openapi.md
+- name: IBM Watson Machine Learning API - Patch Wml Instances Instance Published Models
+    Published Model Deployments Deployment
+  x-api-slug: wml-instancesinstance-idpublished-modelspublished-model-iddeploymentsdeployment-id-patch
+  description: Patch wml instances instance published models published model deployments
+    deployment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
+  humanURL: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/
+  baseURL: https://ibm-watson-ml.mybluemix.net/v3/
+  tags: Machine Learning, Machine Learning, AI, API LIfeyclessss, Stack Network, Stack,
+    Getting Started Example, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/ibm-watson/wml-instancesinstance-idpublished-modelspublished-model-iddeploymentsdeployment-id-patch-openapi.md
+- name: IBM Watson Machine Learning API - Delete Wml Instances Instance Published
+    Models Published Model Deployments Deployment
+  x-api-slug: wml-instancesinstance-idpublished-modelspublished-model-iddeploymentsdeployment-id-delete
+  description: Delete wml instances instance published models published model deployments
+    deployment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
+  humanURL: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/
+  baseURL: https://ibm-watson-ml.mybluemix.net/v3/
+  tags: Machine Learning, Machine Learning, AI, API LIfeyclessss, Stack Network, Stack,
+    Getting Started Example, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/ibm-watson/wml-instancesinstance-idpublished-modelspublished-model-iddeploymentsdeployment-id-delete-openapi.md
+- name: IBM Watson Machine Learning API - Post Wml Instances Instance Published Models
+    Published Model Deployments Deployment Online
+  x-api-slug: wml-instancesinstance-idpublished-modelspublished-model-iddeploymentsdeployment-idonline-post
+  description: Post wml instances instance published models published model deployments
+    deployment online.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
+  humanURL: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/
+  baseURL: https://ibm-watson-ml.mybluemix.net/v3/
+  tags: Machine Learning, Machine Learning, AI, API LIfeyclessss, Stack Network, Stack,
+    Getting Started Example, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/ibm-watson/wml-instancesinstance-idpublished-modelspublished-model-iddeploymentsdeployment-idonline-post-openapi.md
+- name: IBM Watson Machine Learning API - Get Wml Instances Instance Deployments
+  x-api-slug: wml-instancesinstance-iddeployments-get
+  description: Get wml instances instance deployments.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
+  humanURL: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/
+  baseURL: https://ibm-watson-ml.mybluemix.net/v3/
+  tags: Machine Learning, Machine Learning, AI, API LIfeyclessss, Stack Network, Stack,
+    Getting Started Example, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/ibm-watson/wml-instancesinstance-iddeployments-get-openapi.md
+- name: IBM Watson Machine Learning API - Get Wml Instances Instance Published Models
+    Published Model Deployments Deployment
+  x-api-slug: wml-instancesinstance-idpublished-modelspublished-model-iddeploymentsdeployment-id-get
+  description: Get wml instances instance published models published model deployments
+    deployment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
+  humanURL: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/
+  baseURL: https://ibm-watson-ml.mybluemix.net/v3/
+  tags: Machine Learning, Machine Learning, AI, API LIfeyclessss, Stack Network, Stack,
+    Getting Started Example, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/ibm-watson/wml-instancesinstance-idpublished-modelspublished-model-iddeploymentsdeployment-id-get-openapi.md
+- name: IBM Watson Machine Learning API - Patch Wml Instances Instance Published Models
+    Published Model Deployments Deployment
+  x-api-slug: wml-instancesinstance-idpublished-modelspublished-model-iddeploymentsdeployment-id-patch
+  description: Patch wml instances instance published models published model deployments
+    deployment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
+  humanURL: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/
+  baseURL: https://ibm-watson-ml.mybluemix.net/v3/
+  tags: Machine Learning, Machine Learning, AI, API LIfeyclessss, Stack Network, Stack,
+    Getting Started Example, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/ibm-watson/wml-instancesinstance-idpublished-modelspublished-model-iddeploymentsdeployment-id-patch-openapi.md
+- name: IBM Watson Machine Learning API - Delete Wml Instances Instance Published
+    Models Published Model Deployments Deployment
+  x-api-slug: wml-instancesinstance-idpublished-modelspublished-model-iddeploymentsdeployment-id-delete
+  description: Delete wml instances instance published models published model deployments
+    deployment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
+  humanURL: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/
+  baseURL: https://ibm-watson-ml.mybluemix.net/v3/
+  tags: Machine Learning, Machine Learning, AI, API LIfeyclessss, Stack Network, Stack,
+    Getting Started Example, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/ibm-watson/wml-instancesinstance-idpublished-modelspublished-model-iddeploymentsdeployment-id-delete-openapi.md
+- name: IBM Watson Machine Learning API - Post Wml Instances Instance Published Models
+    Published Model Deployments Deployment Online
+  x-api-slug: wml-instancesinstance-idpublished-modelspublished-model-iddeploymentsdeployment-idonline-post
+  description: Post wml instances instance published models published model deployments
+    deployment online.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
+  humanURL: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/
+  baseURL: https://ibm-watson-ml.mybluemix.net/v3/
+  tags: Machine Learning, Machine Learning, AI, API LIfeyclessss, Stack Network, Stack,
+    Getting Started Example, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/ibm-watson/wml-instancesinstance-idpublished-modelspublished-model-iddeploymentsdeployment-idonline-post-openapi.md
+- name: IBM Watson Machine Learning API - Get Wml Instances Instance Published Models
+    Published Model Deployments Deployment
+  x-api-slug: wml-instancesinstance-idpublished-modelspublished-model-iddeploymentsdeployment-id-get
+  description: Get wml instances instance published models published model deployments
+    deployment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
+  humanURL: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/
+  baseURL: https://ibm-watson-ml.mybluemix.net/v3/
+  tags: Machine Learning, Machine Learning, AI, API LIfeyclessss, Stack Network, Stack,
+    Getting Started Example, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/ibm-watson/wml-instancesinstance-idpublished-modelspublished-model-iddeploymentsdeployment-id-get-openapi.md
+- name: IBM Watson Machine Learning API - Patch Wml Instances Instance Published Models
+    Published Model Deployments Deployment
+  x-api-slug: wml-instancesinstance-idpublished-modelspublished-model-iddeploymentsdeployment-id-patch
+  description: Patch wml instances instance published models published model deployments
+    deployment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
+  humanURL: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/
+  baseURL: https://ibm-watson-ml.mybluemix.net/v3/
+  tags: Machine Learning, Machine Learning, AI, API LIfeyclessss, Stack Network, Stack,
+    Getting Started Example, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/ibm-watson/wml-instancesinstance-idpublished-modelspublished-model-iddeploymentsdeployment-id-patch-openapi.md
+- name: IBM Watson Machine Learning API - Delete Wml Instances Instance Published
+    Models Published Model Deployments Deployment
+  x-api-slug: wml-instancesinstance-idpublished-modelspublished-model-iddeploymentsdeployment-id-delete
+  description: Delete wml instances instance published models published model deployments
+    deployment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
+  humanURL: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/
+  baseURL: https://ibm-watson-ml.mybluemix.net/v3/
+  tags: Machine Learning, Machine Learning, AI, API LIfeyclessss, Stack Network, Stack,
+    Getting Started Example, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/ibm-watson/wml-instancesinstance-idpublished-modelspublished-model-iddeploymentsdeployment-id-delete-openapi.md
+- name: IBM Watson Machine Learning API - Post Wml Instances Instance Published Models
+    Published Model Deployments Deployment Online
+  x-api-slug: wml-instancesinstance-idpublished-modelspublished-model-iddeploymentsdeployment-idonline-post
+  description: Post wml instances instance published models published model deployments
+    deployment online.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
+  humanURL: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/
+  baseURL: https://ibm-watson-ml.mybluemix.net/v3/
+  tags: Machine Learning, Machine Learning, AI, API LIfeyclessss, Stack Network, Stack,
+    Getting Started Example, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/ibm-watson/wml-instancesinstance-idpublished-modelspublished-model-iddeploymentsdeployment-idonline-post-openapi.md
+- name: IBM Watson Machine Learning API - Post Wml Instances Instance Published Models
+    Published Model Deployments Deployment Online
+  x-api-slug: wml-instancesinstance-idpublished-modelspublished-model-iddeploymentsdeployment-idonline-post
+  description: Post wml instances instance published models published model deployments
+    deployment online.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
+  humanURL: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/
+  baseURL: https://ibm-watson-ml.mybluemix.net/v3/
+  tags: Machine Learning, Machine Learning, AI, API LIfeyclessss, Stack Network, Stack,
+    Getting Started Example, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/ibm-watson/wml-instancesinstance-idpublished-modelspublished-model-iddeploymentsdeployment-idonline-post-openapi.md
+- name: IBM Watson Machine Learning API - Delete Wml Instances Instance Published
+    Models Published Model Deployments Deployment
+  x-api-slug: wml-instancesinstance-idpublished-modelspublished-model-iddeploymentsdeployment-id-delete
+  description: Delete wml instances instance published models published model deployments
+    deployment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
+  humanURL: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/
+  baseURL: https://ibm-watson-ml.mybluemix.net/v3/
+  tags: Machine Learning, Machine Learning, AI, API LIfeyclessss, Stack Network, Stack,
+    Getting Started Example, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/ibm-watson/wml-instancesinstance-idpublished-modelspublished-model-iddeploymentsdeployment-id-delete-openapi.md
+- name: IBM Watson Machine Learning API - Patch Wml Instances Instance Published Models
+    Published Model Deployments Deployment
+  x-api-slug: wml-instancesinstance-idpublished-modelspublished-model-iddeploymentsdeployment-id-patch
+  description: Patch wml instances instance published models published model deployments
+    deployment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
+  humanURL: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/
+  baseURL: https://ibm-watson-ml.mybluemix.net/v3/
+  tags: Machine Learning, Machine Learning, AI, API LIfeyclessss, Stack Network, Stack,
+    Getting Started Example, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/ibm-watson/wml-instancesinstance-idpublished-modelspublished-model-iddeploymentsdeployment-id-patch-openapi.md
+- name: IBM Watson Machine Learning API - Get Wml Instances Instance Published Models
+    Published Model Deployments Deployment
+  x-api-slug: wml-instancesinstance-idpublished-modelspublished-model-iddeploymentsdeployment-id-get
+  description: Get wml instances instance published models published model deployments
+    deployment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
+  humanURL: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/
+  baseURL: https://ibm-watson-ml.mybluemix.net/v3/
+  tags: Machine Learning, Machine Learning, AI, API LIfeyclessss, Stack Network, Stack,
+    Getting Started Example, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/ibm-watson/wml-instancesinstance-idpublished-modelspublished-model-iddeploymentsdeployment-id-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://ibm.financial.crimes.insight.for.insurance.api.gallery.streamdata.io

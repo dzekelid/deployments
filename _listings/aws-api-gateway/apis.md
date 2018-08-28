@@ -16,11 +16,88 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Deployments
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/aws-api-gateway/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS API Gateway API - Restapi Deployments
+  x-api-slug: restapisfugvjdxtrideploymentslimit2-get
+  description: Gets an API&#39;s Deployments resource.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-api-gateway-icon.png
+  humanURL: https://aws.amazon.com/api-gateway/
+  baseURL: :///
+  tags: Amazon Web Services, Gateway, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Deployments, Profiles, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/aws-api-gateway/restapisfugvjdxtrideploymentslimit2-get-openapi.md
+- name: AWS API Gateway API - Deployment Update
+  x-api-slug: restapisfugvjdxtrideploymentsdzacq7-patch
+  description: Changes information about the deployment resource.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-api-gateway-icon.png
+  humanURL: https://aws.amazon.com/api-gateway/
+  baseURL: :///
+  tags: Amazon Web Services, Gateway, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Deployments, Profiles, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/aws-api-gateway/restapisfugvjdxtrideploymentsdzacq7-patch-openapi.md
+- name: AWS API Gateway API - Deployment Delete
+  x-api-slug: restapisfugvjdxtrideploymentsdzacq7-delete
+  description: Deletes the deployment resource.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-api-gateway-icon.png
+  humanURL: https://aws.amazon.com/api-gateway/
+  baseURL: :///
+  tags: Amazon Web Services, Gateway, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Deployments, Profiles, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/aws-api-gateway/restapisfugvjdxtrideploymentsdzacq7-delete-openapi.md
+- name: AWS API Gateway API - Deployment Update
+  x-api-slug: restapisfugvjdxtrideploymentsdzacq7-patch
+  description: Changes information about the deployment resource.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-api-gateway-icon.png
+  humanURL: https://aws.amazon.com/api-gateway/
+  baseURL: :///
+  tags: Amazon Web Services, Gateway, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Deployments, Profiles, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/aws-api-gateway/restapisfugvjdxtrideploymentsdzacq7-patch-openapi.md
+- name: AWS API Gateway API - Deployment Delete
+  x-api-slug: restapisfugvjdxtrideploymentsdzacq7-delete
+  description: Deletes the deployment resource.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-api-gateway-icon.png
+  humanURL: https://aws.amazon.com/api-gateway/
+  baseURL: :///
+  tags: Amazon Web Services, Gateway, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Deployments, Profiles, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/aws-api-gateway/restapisfugvjdxtrideploymentsdzacq7-delete-openapi.md
+- name: AWS API Gateway API - Deployment Update
+  x-api-slug: restapisfugvjdxtrideploymentsdzacq7-patch
+  description: Changes information about the deployment resource.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-api-gateway-icon.png
+  humanURL: https://aws.amazon.com/api-gateway/
+  baseURL: :///
+  tags: Amazon Web Services, Gateway, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Deployments, Profiles, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/aws-api-gateway/restapisfugvjdxtrideploymentsdzacq7-patch-openapi.md
+- name: AWS API Gateway API - Deployment Delete
+  x-api-slug: restapisfugvjdxtrideploymentsdzacq7-delete
+  description: Deletes the deployment resource.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-api-gateway-icon.png
+  humanURL: https://aws.amazon.com/api-gateway/
+  baseURL: :///
+  tags: Amazon Web Services, Gateway, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Deployments, Profiles, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/aws-api-gateway/restapisfugvjdxtrideploymentsdzacq7-delete-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://awhere.api.gallery.streamdata.io

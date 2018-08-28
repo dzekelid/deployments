@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: AWS CodeDeploy
 x-complete: 1
@@ -539,4 +538,3 @@ paths:
           description: OK
       tags:
       - Deployment Groups
----

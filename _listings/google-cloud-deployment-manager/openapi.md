@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Google Cloud Deployment Manager
 x-complete: 1
@@ -210,4 +209,3 @@ paths:
           description: OK
       tags:
       - Deployment
----

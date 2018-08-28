@@ -65,6 +65,117 @@ paths:
       tags:
       - Deployments
       - DeploymentId
+    parameters:
+      summary: Parameters Deployments Deploymentid
+      description: Parameters deployments deploymentid.
+      operationId: parametersDeploymentsDeployment
+      x-api-path-slug: deploymentsdeploymentid-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Deployments
+      - DeploymentId
+  /environments/{deploymentEnvironmentId}/deployments:
+    get:
+      summary: Get Environments Deploymentenvironmentid Deployments
+      description: Get environments deploymentenvironmentid deployments.
+      operationId: getEnvironmentsDeploymentenvironmentDeployments
+      x-api-path-slug: environmentsdeploymentenvironmentiddeployments-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Environments
+      - DeploymentEnvironmentId
+      - Deployments
+    parameters:
+      summary: Parameters Environments Deploymentenvironmentid Deployments
+      description: Parameters environments deploymentenvironmentid deployments.
+      operationId: parametersEnvironmentsDeploymentenvironmentDeployments
+      x-api-path-slug: environmentsdeploymentenvironmentiddeployments-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Environments
+      - DeploymentEnvironmentId
+      - Deployments
+  /projects/{accountName}/{projectSlug}/deployments:
+    get:
+      summary: Get Projects Accountname Projectslug Deployments
+      description: Get projects accountname projectslug deployments.
+      operationId: getProjectsAccountnameProjectslugDeployments
+      x-api-path-slug: projectsaccountnameprojectslugdeployments-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Projects
+      - AccountName
+      - ProjectSlug
+      - Deployments
+    parameters:
+      summary: Parameters Projects Accountname Projectslug Deployments
+      description: Parameters projects accountname projectslug deployments.
+      operationId: parametersProjectsAccountnameProjectslugDeployments
+      x-api-path-slug: projectsaccountnameprojectslugdeployments-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Projects
+      - AccountName
+      - ProjectSlug
+      - Deployments
+  /environments/{deploymentEnvironmentId}:
+    delete:
+      summary: Delete Environments Deploymentenvironmentid
+      description: Delete environments deploymentenvironmentid.
+      operationId: deleteEnvironmentsDeploymentenvironment
+      x-api-path-slug: environmentsdeploymentenvironmentid-delete
+      responses:
+        200:
+          description: OK
+      tags:
+      - Environments
+      - DeploymentEnvironmentId
+    parameters:
+      summary: Parameters Environments Deploymentenvironmentid
+      description: Parameters environments deploymentenvironmentid.
+      operationId: parametersEnvironmentsDeploymentenvironment
+      x-api-path-slug: environmentsdeploymentenvironmentid-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Environments
+      - DeploymentEnvironmentId
+  /environments/{deploymentEnvironmentId}/settings:
+    get:
+      summary: Get Environments Deploymentenvironmentid Settings
+      description: Get environments deploymentenvironmentid settings.
+      operationId: getEnvironmentsDeploymentenvironmentSettings
+      x-api-path-slug: environmentsdeploymentenvironmentidsettings-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Environments
+      - DeploymentEnvironmentId
+      - Settings
+    parameters:
+      summary: Parameters Environments Deploymentenvironmentid Settings
+      description: Parameters environments deploymentenvironmentid settings.
+      operationId: parametersEnvironmentsDeploymentenvironmentSettings
+      x-api-path-slug: environmentsdeploymentenvironmentidsettings-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Environments
+      - DeploymentEnvironmentId
+      - Settings
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

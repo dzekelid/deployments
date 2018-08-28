@@ -8,7 +8,6 @@ info:
   description: Post wml instances instance published models published model deployments
     deployment online.
   version: 1.0.0
-host: ibm-watson-ml.mybluemix.net
 basePath: v3/
 schemes:
 - http
@@ -16,6 +15,7 @@ produces:
 - application/json
 consumes:
 - application/json
+host: ibm-watson-ml.mybluemix.net
 paths:
   /wml_instances/{instance_id}/published_models/{published_model_id}/deployments:
     post:
@@ -200,6 +200,22 @@ paths:
       - Deployment
       - Id
       - Online
+  /wml_instances/{instance_id}/deployments:
+    get:
+      summary: Get Wml Instances Instance Deployments
+      description: Get wml instances instance deployments.
+      operationId: listAllDeployments
+      x-api-path-slug: wml-instancesinstance-iddeployments-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Machine Learning
+      - Wml
+      - Instances
+      - Instance
+      - Id
+      - Deployments
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

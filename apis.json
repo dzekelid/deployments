@@ -1,0 +1,1553 @@
+{
+	"name": "Streadata.io API Gallery - Deployments",
+	"description": "This is a repository of deployments APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/deployments.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://deployments.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Rogue Wave Software",
+			"x-api-slug": "rogue-wave-software",
+			"description": "We???re the largest independent provider of cross-platform software development tools and embedded components in the world. Come see how we can help.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20-akana.jpg",
+			"humanURL": "http://www.akana.com/",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/rogue-wave-software/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Axway",
+			"x-api-slug": "axway",
+			"description": "The Axway AMPLIFY platform unifies your employees, suppliers, partners and developers to create a powerful Customer Experience Network.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21-axway.jpg",
+			"humanURL": "http://axway.com",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/axway/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Socrata",
+			"x-api-slug": "socrata",
+			"description": "Join more than 1,000 government organizations using Socrata to put their data online, share insights, and make data-driven decisions.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/24-socrata.jpg",
+			"humanURL": "http://socrata.com",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/socrata/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Restlet",
+			"x-api-slug": "restlet",
+			"description": "Restlet is a web API platform vendor, pioneer of RESTful web APIs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/90-restlet.jpg",
+			"humanURL": "https://restlet.com/",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/restlet/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ApiAxle",
+			"x-api-slug": "apiaxle",
+			"description": "ApiAxle is a proxy that sits on your network, in front of your API(s) and manages things that you shouldnt have to, like rate limiting, authentication and caching. It is fast, open and easy to configure. ?ApiAxle is different to the cloud based services such as Mashery in that it is intended to be installed within your LAN and be managed by you. This means you own your users, you own your data and you can more easily manage costs. ApiAxle is open-source. This means you can modify it as much as you like and contribute changes back. Others will do the same and gradually the system will become all the better for it.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-axle-logo-3.png",
+			"humanURL": "http://apiaxle.com/",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/apiaxle/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GitHub",
+			"x-api-slug": "github",
+			"description": "GitHub brings together the worlds largest community of developers to discover, share, and build better software. From open source projects to private team repositories, were your all-in-one platform for collaborative development.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png",
+			"humanURL": "https://github.com",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/github/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Diffbot",
+			"x-api-slug": "diffbot",
+			"description": "Never write another web scraper. Diffbot automates web data extraction from any website using AI, computer vision, &amp; machine learning.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/181-diffbot.jpg",
+			"humanURL": "http://www.diffbot.com/our-apis/follow/",
+			"baseURL": "https:////",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/diffbot/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "46elks",
+			"x-api-slug": "46elks",
+			"description": "Adding SMS and Voice to your application or service should be easy. Phone calls, SMS & MMS in one easy API. For developers, built by developers.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/289-46elks.jpg",
+			"humanURL": "http://46elks.com/",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/46elks/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "SlashDB",
+			"x-api-slug": "slashdb",
+			"description": "SlashDB is an API service provider that focuses primarily on delivering APIs (Application programming interface) from your database. Once it is installed on any web server, it will connect your internal databases and construct a REST/HTTP web service, ...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1361-slashdb.jpg",
+			"humanURL": "http://www.slashdb.com/",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/slashdb/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "SwiftIQ",
+			"x-api-slug": "swiftiq",
+			"description": "SwiftIQ provides retailers, brands, and distributors with real-time retail analytics software to better understand their customer???s buying habits.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1688-swiftiq.jpg",
+			"humanURL": "http://www.swiftiq.com/",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/swiftiq/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Import.io",
+			"x-api-slug": "import-io",
+			"description": "Home Page - Import.io - Web Scraping, Data Extraction and Web Harvesting",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1728-import-io.jpg",
+			"humanURL": "https://www.import.io/",
+			"baseURL": "https://schedule.import.io//",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/import-io/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Elasticsearch",
+			"x-api-slug": "elasticsearch",
+			"description": "Were the creators of Elasticsearch, Kibana, Beats, and Logstash -- the Elastic Stack. Securely and reliably search, analyze, and visualize your data.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1910-elasticsearch.jpg",
+			"humanURL": "http://www.elasticsearch.org/",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/elasticsearch/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "APImetrics",
+			"x-api-slug": "apimetrics",
+			"description": "API performance monitoring, Cloud Service, SLA monitoring and analysis that gives you answers, not excuses. Find out how today.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1916-apimetrics.jpg",
+			"humanURL": "http://apimetrics.io",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/apimetrics/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Cosmic",
+			"x-api-slug": "cosmic",
+			"description": "A high level framework for crafting web APIs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2261-cosmic.jpg",
+			"humanURL": "http://www.cosmic-api.com/",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/cosmic/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "nginx web server",
+			"x-api-slug": "nginx-web-server",
+			"description": "News about nginx (engine x) - a high performance free open source web server powering busiest sites on the Internet. For NGINX Inc. news please check @nginx",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2674-nginx-web-server.jpg",
+			"humanURL": "http://nginx.org/en/",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/nginx-web-server/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "StrongLoop",
+			"x-api-slug": "strongloop",
+			"description": "StrongLoop began in 2013 offering an open-source enterprise version of Node.js. Acquired by IBM in 2015, the StrongLoop team continues to build LoopBack, the open-source Node.js API Framework. IBM continues to contribute and support the StrongLoop comm...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2959-strongloop.jpg",
+			"humanURL": "http://strongloop.com/",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/strongloop/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Sheetlabs",
+			"x-api-slug": "sheetlabs",
+			"description": "Turn your spreadsheets into APIs effortlessly. Eliminate the hassle and human error of manually emailing and importing spreadsheets.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6697-sheetlabs.jpg",
+			"humanURL": "https://sheetlabs.com",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/sheetlabs/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Docker",
+			"x-api-slug": "docker",
+			"description": "Docker is an open platform for developers and system administrators to build, ship and run distributed applications. With Docker, IT organizations shrink application delivery from months to minutes, frictionlessly move workloads between data centers an...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11306-docker.jpg",
+			"humanURL": "https://www.docker.com/",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/docker/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "CKAN",
+			"x-api-slug": "ckan",
+			"description": "The #opensource #opendata platform. Powering http://t.co/GdXNmN65Sf, http://t.co/9O9OJjJnJd & portals around the world: http://t.co/YEGynxgDgM. Join us!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11383-ckan.jpg",
+			"humanURL": "http://ckan.org/",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/ckan/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "TIBCO Software",
+			"x-api-slug": "tibco-software",
+			"description": "TIBCO Software is the leading independent provider of infrastructure software creating event-enabled enterprises to use on-premise or as part of cloud computing environments.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11397-tibco-software.jpg",
+			"humanURL": "http://www.tibco.com",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/tibco-software/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Tyk",
+			"x-api-slug": "tyk",
+			"description": "Tyk - Open Source API Gateway, API Management Platform, Developer Portal and Analytics - Tyk",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11408-tyk.jpg",
+			"humanURL": "http://www.tyk.io",
+			"baseURL": "https://{baseURL}//",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/tyk/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "WaveMaker",
+			"x-api-slug": "wavemaker",
+			"description": "Enterprise applications cant change overnight and modernization is simple things done right. The WaveMaker platform helps you to wrap around existing data and business logic, to develop and deliver modern applications that are future-proof, web-scale ...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11502-wavemaker,-inc-.jpg",
+			"humanURL": "http://www.wavemaker.com/",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/wavemaker/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "IBM Watson",
+			"x-api-slug": "ibm-watson",
+			"description": "Meet IBM Watson, a cognitive system that enables a new partnership between people and computers that enhances and scales human expertise. Watson has been learning the language of professions and is trained by experts to work across many different industries.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png",
+			"humanURL": "https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/",
+			"baseURL": "https://ibm-watson-ml.mybluemix.net/v3/",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/ibm-watson/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Service Stack",
+			"x-api-slug": "service-stack",
+			"description": "Thoughtfully architected, obscenely fast,   thoroughly enjoyable web services for all",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11520-service-stack.jpg",
+			"humanURL": "https://servicestack.net",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/service-stack/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Algorithmia",
+			"x-api-slug": "algorithmia",
+			"description": "Algorithmia makes applications smarter, by building a community around algorithm development, where state of the art algorithms are always live and accessible to anyone.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11780-algorithmia.jpg",
+			"humanURL": "https://algorithmia.com",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/algorithmia/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "OpenLegacy",
+			"x-api-slug": "openlegacy",
+			"description": "API Integration and API Management software to create APIs to leverage core (legacy) systems & quickly deliver innovative digital transformation projects using a microservices approach.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11781-openlegacy.jpg",
+			"humanURL": "http://openlegacy.com/",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/openlegacy/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "deployd",
+			"x-api-slug": "deployd",
+			"description": "Deployd is the simplest way to build APIs. Ever.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11784-deployd.jpg",
+			"humanURL": "http://deployd.com/",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/deployd/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Apigility",
+			"x-api-slug": "apigility",
+			"description": "The worlds easiest way to create high-quality APIs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18593-apigility.jpg",
+			"humanURL": "https://apigility.org/",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/apigility/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Django REST",
+			"x-api-slug": "django-rest",
+			"description": "Django REST framework is a powerful and flexible toolkit that makes it easy to build Web APIs.It offers an attractive, web browseable version of your API, and the option of returning raw JSON. The Django Rest Framework provides powerful model serialization, display data using standard function based views, or get granular with powerful class based views for more complex functionality. All in a fully REST compliant wrapper.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/django-rest-framework.png",
+			"humanURL": "http://www.django-rest-framework.org",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/django-rest/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Apache Wink",
+			"x-api-slug": "apache-wink",
+			"description": "Apache Wink is a simple yet solid framework for building RESTful Web services. It is comprised of a Server module and a Client module for developing and consuming RESTful Web services. The Wink Client module is a Java based framework that provides functionality for communicating with RESTful Web services. The framework is built on top of the JDK HttpURLConnection and adds essential features that facilitate the development of such client applications.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Apache_Wink_Logo.png",
+			"humanURL": "https://wink.apache.org/",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/apache-wink/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "RESTBase",
+			"x-api-slug": "restbase",
+			"description": "RESTBase is a caching / storing API proxy. Its configuration is based on Swagger specs, and its primary storage backend is using Cassandra. It powers rest.wikimedia.org, the Wikimedia REST content API currently in beta production. As a proxy, RESTBase does not perform any significant content processing itself. Instead, it requests content transformations from backend services when needed, and typically (depending on configuration) stores it back for later retrieval.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/RESTBase-Logo.png",
+			"humanURL": "http://www.mediawiki.org/wiki/RESTBase",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/restbase/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "OpenRasta",
+			"x-api-slug": "openrasta",
+			"description": "OpenRasta is an open-source .NET framework for building everything web, from web sites to RESTful APIs. Written from the ground-up with testing in mind, OpenRasta removes the faff from your code and lets you concentrate on writing clean, beautiful code. Proven in the real world, OpenRasta is the perfect choice for building scalable, high-performance, reliable web services.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/OpenRasta-Logo.png",
+			"humanURL": "http://openrasta.org/",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/openrasta/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Seneca JS",
+			"x-api-slug": "seneca-js",
+			"description": "A Micro-Services toolkit for Node.js. This toolkit lets you write clean code that you can scale without needing to refactor. Start with everything in one process, and split it all out onto multiple systems when you need to.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/seneca-logo.png",
+			"humanURL": "http://senecajs.org/",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/seneca-js/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "BinaryOps.io",
+			"x-api-slug": "binaryops-io",
+			"description": "Delivering API based data solutions for mobile & modern web applications.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18867-binaryops-io.jpg",
+			"humanURL": "http://www.binaryops.io/",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/binaryops-io/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Apache Solr",
+			"x-api-slug": "apache-solr",
+			"description": "Solr is highly reliable, scalable and fault tolerant, providing distributed indexing, replication and load-balanced querying, automated failover and recovery, centralized configuration and more. Solr powers the search and navigation features of many of the worlds largest internet sites.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apache-solr-logo.png",
+			"humanURL": "http://lucene.apache.org/solr/",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/apache-solr/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "CA Technologies",
+			"x-api-slug": "ca-technologies",
+			"description": "Transform digital business with CA Technologies. Software and expertise to create a Modern Software Factory built on agility, automation, insights and security.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18906-ca-technologies.jpg",
+			"humanURL": "http://www.ca.com",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/ca-technologies/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Apache Knox",
+			"x-api-slug": "apache-knox",
+			"description": "The Apache Knox Gateway is a REST API Gateway for interacting with Hadoop clusters. The Knox Gateway provides a single access point for all REST interactions with Hadoop clusters. In this capacity, the Knox Gateway is able to provide valuable functionality to aid in the control, integration, monitoring and automation of critical administrative and analytical needs of the enterprise.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apache-knox-logo.gif",
+			"humanURL": "https://knox.apache.org/",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/apache-knox/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Jexia",
+			"x-api-slug": "jexia",
+			"description": "JEXIA is the place to build APIs, deploy APPs and manage all your data streams.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18976-jexia.jpg",
+			"humanURL": "http://www.jexia.com/",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/jexia/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "OpsGen",
+			"x-api-slug": "opsgen",
+			"description": "Theres a better way to build connectivity for high-value enterprise, mobile, IoT, and startup applications. OpsGen can help you easily and rapidly create, manage, and scale your API. Visit our website and find your way!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19009-opsgen.jpg",
+			"humanURL": "http://opsgen.com",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/opsgen/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Nodal",
+			"x-api-slug": "nodal",
+			"description": "Build your next API service with Nodal and focus on creating an effective product in a short timespan while minimizing technical debt.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19025-nodal.jpg",
+			"humanURL": "http://www.nodaljs.com/",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/nodal/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Fieldbook",
+			"x-api-slug": "fieldbook",
+			"description": "Frustrated with tracking your work in spreadsheets? Fieldbook can help.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19066-fieldbook.jpg",
+			"humanURL": "https://fieldbook.com",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/fieldbook/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "WrapAPI",
+			"x-api-slug": "wrapapi",
+			"description": "Build an API on top of any existing website or find an API for a site that you need",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19089-wrapapi.jpg",
+			"humanURL": "https://wrapapi.com",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/wrapapi/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "weblab",
+			"x-api-slug": "weblab",
+			"description": "Microservices at your fingertips. Run code on each GitHub Push, a Paypal Payment, or any webhook, without setting up servers.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19090-weblab.jpg",
+			"humanURL": "https://weblab.io/",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/weblab/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Goa",
+			"x-api-slug": "goa",
+			"description": "goa is a code generation framework built in Go that provides the developer with a clear and concise path to generate idiomatic API and Microservice architectures by using a design-first methodology.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19918-goa.jpg",
+			"humanURL": "https://goa.design/",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/goa/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "RESTX",
+			"x-api-slug": "restx",
+			"description": "the lightweight, modular, feature rich, blazing fast, open source Java REST framework",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/restx-logo.png",
+			"humanURL": "http://restx.io/",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/restx/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Webtask",
+			"x-api-slug": "webtask",
+			"description": "All you need is code! Run code with an HTTP call. No provisioning. No deployment.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19920-webtask.jpg",
+			"humanURL": "https://webtask.io/",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/webtask/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Apache Karaf",
+			"x-api-slug": "apache-karaf",
+			"description": "Karaf provides dual polymorphic container and application bootstrapping paradigms to the Enterprise. Focus on your business code and application, Karaf deals with the rest.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apache-karaf-logo.png",
+			"humanURL": "http://karaf.apache.org/",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/apache-karaf/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "API Platform",
+			"x-api-slug": "api-platform",
+			"description": "An incredible PHP web framework to build modern, API-first web projects! Out of the box hypermedia and Linked Data support with JSON-LD, Schema.org and Hydra.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-platform-logo.png",
+			"humanURL": "https://api-platform.com",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/api-platform/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Micro",
+			"x-api-slug": "micro",
+			"description": "Micro is simplifying cloud-native development",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20078-micro.jpg",
+			"humanURL": "https://micro.mu/",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/micro/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "hook.io",
+			"x-api-slug": "hook-io",
+			"description": "Twitter account for hook.io open-source microservice hosting platform.    Tweet here for Questions or Support.    File support issues @ https://t.co/jHGKd4iuop",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20079-hook-io.jpg",
+			"humanURL": "http://hook.io/",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/hook-io/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Hewlett Packard Enterprise (HPE)",
+			"x-api-slug": "hewlett-packard-enterprise-hpe",
+			"description": "We help customers use technology to slash the time it takes to turn ideas into value. In turn, they transform industries, markets and lives. Some of our customers run traditional IT environments. Most are transitioning to a secure, cloud-enabled, mobile-friendly infrastructure. Many rely on a combination of both. Wherever they are in that journey, we provide the technology and solutions to help them succeed.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HPE-logo.png",
+			"humanURL": "http://HPE.com",
+			"baseURL": "https://deic02-hpe.hpeonesphere.com//rest",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/hewlett-packard-enterprise-hpe/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Apimint",
+			"x-api-slug": "apimint",
+			"description": "APIMINT is an API lifecycle management tool. With our design first approach, all stake holders get a platform to collaborate and give feedback on API design and structure. We make sure your all your teams can easily agree and understand your APIs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Apimint_-_Rapidly_Prototype_APIs.png",
+			"humanURL": "https://www.apimint.com",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/apimint/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "New Relic",
+			"x-api-slug": "new-relic",
+			"description": "New Relic???s digital intelligence platform lets developers, ops, and tech teams measure and monitor the performance of their applications and infrastructure.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22963-new-relic.jpg",
+			"humanURL": "https://newrelic.com/",
+			"baseURL": "https:///v2/",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/new-relic/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS EC2 Container Service",
+			"x-api-slug": "aws-ec2-container-service",
+			"description": "Amazon EC2 Container Service (ECS) is a highly scalable, high performance container management service that supports Docker containers and allows you to easily run applications on a managed cluster of Amazon EC2 instances. Amazon ECS eliminates the need for you to install, operate, and scale your own cluster management infrastructure. With simple API calls, you can launch and stop Docker-enabled applications, query the complete state of your cluster, and access many familiar features like security groups, Elastic Load Balancing, EBS volumes, and IAM roles. You can use Amazon ECS to schedule the placement of containers across your cluster based on your resource needs and availability requirements. You can also integrate your own scheduler or third-party schedulers to meet business or application specific requirements.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECS.png",
+			"humanURL": "https://aws.amazon.com/ecs/",
+			"baseURL": ":///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/aws-ec2-container-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Elastic Beanstalk",
+			"x-api-slug": "aws-elastic-beanstalk",
+			"description": "AWS Elastic Beanstalk is an easy-to-use service for deploying and scaling web applications and services developed with Java,.NET, PHP, Node.js, Python, Ruby, Go, andDockeron familiar servers such as Apache, Nginx, Passenger, andIIS.You can simply upload your code and Elastic Beanstalk automatically handles the deployment, from capacity provisioning, load balancing, auto-scaling to application health monitoring. At the same time, you retain full control over the AWS resources powering your application and can access the underlying resources at any time.There is no additional charge for Elastic Beanstalk - you pay only for the AWS resources needed to store and run your applications.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSElasticBeanstalk.png",
+			"humanURL": "https://aws.amazon.com/elasticbeanstalk/",
+			"baseURL": ":///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/aws-elastic-beanstalk/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Lambda",
+			"x-api-slug": "aws-lambda",
+			"description": "AWS Lambda is a zero-administration compute platform for back-end web developers that runs your code for you in the AWScloudand provides you with a fine-grained pricing structure. AWS Lambda runs your back-end code on its own AWS compute fleet of Amazon Elastic Compute Cloud (Amazon EC2) instances across multiple Availability Zones in a region, which provides the high availability, security, performance, and scalability of the AWS infrastructure.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png",
+			"humanURL": "http://docs.aws.amazon.com/lambda/",
+			"baseURL": ":///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/aws-lambda/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Storage Gateway Service",
+			"x-api-slug": "aws-storage-gateway-service",
+			"description": "The AWS Storage Gateway service seamlessly enables hybrid storage between on-premises storage environments andthe AWS Cloud. It combines a multi-protocol storage appliance with highly efficient network connectivity toAmazon cloud storageservices, delivering local performance with virtually unlimited scale. Customers use it in remote offices and datacenters for hybrid cloud workloads, backup and restore, archive, disaster recovery, and tiered storage.The Storage Gateway virtual appliance connects seamlessly to your local infrastructure as a file server, as a volume, or as a virtual tape library (VTL). This seamless connection makes it simple for organizations to augment existing on-premises storage investments with the high scalability, extreme durability and low cost of cloud storage.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png",
+			"humanURL": "https://aws.amazon.com/storagegateway/",
+			"baseURL": ":///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/aws-storage-gateway-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS CodeDeploy",
+			"x-api-slug": "aws-codedeploy",
+			"description": "AWS CodeDeploy is a service that automates code deployments to any instance, including Amazon EC2 instances and instances running on-premises. AWS CodeDeploy makes it easier for you to rapidly release new features, helps you avoid downtime during application deployment, and handles the complexity of updating your applications. You can use AWS CodeDeploy to automate software deployments, eliminating the need for error-prone manual operations, and the service scales with your infrastructure so you can easily deploy to one instance or thousands.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-codedeploy.png",
+			"humanURL": "https://aws.amazon.com/codedeploy/",
+			"baseURL": ":///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/aws-codedeploy/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS EC2 Systems Manager",
+			"x-api-slug": "aws-ec2-systems-manager",
+			"description": "Amazon EC2 Systems Manager is a management service that helps you automatically collect software inventory, apply OS patches, create system images, and configure Windows and Linux operating systems. These capabilities help you define and track system configurations, prevent drift, and maintain software compliance of your EC2 and on-premises configurations. By providing a management approach that is designed for the scale and agility of the cloud but extends into your on-premises data center, EC2 Systems Manager makes it easier for you to seamlessly bridge your existing infrastructure with AWS.EC2 Systems Manager is easy to use. Simply access EC2 Systems Manager from the EC2 Management Console, select the instances you want to manage, and define the management tasks you want to perform. EC2 Systems Manager is available now at no cost to manage both your EC2 and on-premises resources.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png",
+			"humanURL": "https://aws.amazon.com/ec2/systems-manager/",
+			"baseURL": ":///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/aws-ec2-systems-manager/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS CloudFormation",
+			"x-api-slug": "aws-cloudformation",
+			"description": "AWS CloudFormation gives developers and systems administrators an easy way to create and manage a collection of related AWS resources, provisioning and updating them in an orderly and predictable fashion.You can use AWS CloudFormations?sample templates?or create your own templates to describe the AWS resources, and any associated dependencies or runtime parameters, required to run your application. You do not need to figure out the order for provisioning AWS services or the subtleties of making those dependencies work. CloudFormation takes care of this for you. After the AWS resources are deployed, you can modify and update them in a controlled and predictable way, in effect applying version control to your AWS infrastructure the same way you do with your software. You can also visualize your templates as diagrams and edit them using a drag-and-drop interface with the?AWS CloudFormation Designer.You can deploy and update a template and its associated collection of resources (called a stack) by using the AWS Management Console, AWS Command Line Interface, or APIs. CloudFormation is available at no additional charge, and you pay only for the AWS resources needed to run your applications.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSCloudFormation.png",
+			"humanURL": "https://aws.amazon.com/cloudformation/",
+			"baseURL": ":///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/aws-cloudformation/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS OpsWorks",
+			"x-api-slug": "aws-opsworks",
+			"description": "AWS OpsWorks is a configuration management service that uses Chef, an automation platform that treats server configurations as code. OpsWorks uses Chef to automate how servers are configured, deployed, and managed across your Amazon Elastic Compute Cloud (Amazon EC2) instances or on-premises compute environments. OpsWorks has two offerings, AWS Opsworks for Chef Automate, and AWS OpsWorks Stacks.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png",
+			"humanURL": "https://aws.amazon.com/opsworks/",
+			"baseURL": ":///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/aws-opsworks/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS API Gateway",
+			"x-api-slug": "aws-api-gateway",
+			"description": "Amazon API Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale. With a few clicks in the AWS Management Console, you can create an API that acts as a front door for applications to access data, business logic, or functionality from your back-end services, such as workloads running on Amazon Elastic Compute Cloud, code running on AWS Lambda, or any Web application. Amazon API Gateway handles all the tasks involved in accepting and processing up to hundreds of thousands of concurrent API calls, including traffic management, authorization and access control, monitoring, and API version management. Amazon API Gateway has no minimum fees or startup costs. You pay only for the API calls you receive and the amount of data transferred out.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-api-gateway-icon.png",
+			"humanURL": "https://aws.amazon.com/api-gateway/",
+			"baseURL": ":///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/aws-api-gateway/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Auto Scaling",
+			"x-api-slug": "aws-auto-scaling",
+			"description": "Auto Scaling helps you maintain application availability and allows you to scale yourAmazon EC2capacity up or down automatically according to conditions you define. You can use Auto Scaling to help ensure that you are running your desired number of Amazon EC2 instances. Auto Scaling can also automatically increase the number of Amazon EC2 instances during demand spikes to maintain performance and decrease capacity during lulls to reduce costs. Auto Scaling is well suited both to applications that have stable demand patterns or that experience hourly, daily, or weekly variability in usage.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2_AutoScaling.png",
+			"humanURL": "https://aws.amazon.com/autoscaling/",
+			"baseURL": ":///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/aws-auto-scaling/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google App Engine",
+			"x-api-slug": "google-app-engine",
+			"description": "Build modern web and mobile applications on an open cloud platform: bring your own language runtimes, frameworks, and third party libraries. Google App Engine is a fully managed platform that completely abstracts away infrastructure so you focus only on code. Go from zero to planet-scale and see why some of today&rsquo;s most successful companies power their applications on App Engine.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-app-engine-icon.png",
+			"humanURL": "https://cloud.google.com/appengine/",
+			"baseURL": "://appengine.googleapis.com//",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/google-app-engine/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Biquery",
+			"x-api-slug": "google-biquery",
+			"description": "BigQuery is Googles fully managed, petabyte scale, low cost enterprise data warehouse for analytics. BigQuery is serverless. There is no infrastructure to manage and you dont need a database administrator, so you can focus on analyzing data to find meaningful insights using familiar SQL. BigQuery is a powerful Big Data analytics platform used by all types of organizations, from startups to Fortune 500 companies.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/BigQuery_500px.png",
+			"humanURL": "https://cloud.google.com/bigquery/",
+			"baseURL": "://www.googleapis.com//bigquery/v2",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/google-biquery/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Cloud Container Builder",
+			"x-api-slug": "google-cloud-container-builder",
+			"description": "Google Cloud Container Builder lets you create Docker container images from application source code located in Google Cloud Storage. Container images created by Container Builder are automatically stored in Google Container Registry. You can deploy the container images you create on Google Container Engine, Google Compute Engine, Google App Engine flexible environment or other services where you can run applications from Docker containers.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/container-builder-lead.png",
+			"humanURL": "https://cloud.google.com/container-builder/",
+			"baseURL": "://cloudbuild.googleapis.com//",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/google-cloud-container-builder/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Cloud Functions",
+			"x-api-slug": "google-cloud-functions",
+			"description": "Cloud computing has made possible fully serverless models of computing where logic can be spun up on-demand in response to events originating from anywhere. Construct applications from bite-sized business logic billed to the nearest 100 milliseconds, only while your code is running. Serve users from zero to planet-scale, all without managing any infrastructure.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Cloud-Functions.png",
+			"humanURL": "https://cloud.google.com/functions/",
+			"baseURL": "://cloudfunctions.googleapis.com//",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/google-cloud-functions/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Compute Engine",
+			"x-api-slug": "google-compute-engine",
+			"description": "Google Compute Engine delivers virtual machines running in Googles innovative data centers and worldwide fiber network. Compute Engines tooling and workflow support enable scaling from single instances to global, load-balanced cloud computing.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google_Compute_Engine_logo.png",
+			"humanURL": "https://cloud.google.com/compute/",
+			"baseURL": "://www.googleapis.com//compute/v1/projects",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/google-compute-engine/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Container Engine",
+			"x-api-slug": "google-container-engine",
+			"description": "Google Container Engine is a powerful cluster manager and orchestration system for running your Docker containers. Container Engine schedules your containers into the cluster and manages them automatically based on requirements you define (such as CPU and memory). Its built on the open source Kubernetes system, giving you the flexibility to take advantage of on-premises, hybrid, or public cloud infrastructure.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/docker-container.png",
+			"humanURL": "https://cloud.google.com/container-engine/",
+			"baseURL": "://container.googleapis.com//",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/google-container-engine/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Cloud Dataproc",
+			"x-api-slug": "google-cloud-dataproc",
+			"description": "Use Google Cloud Dataproc, an Apache Hadoop, Apache Spark, Apache Pig, and Apache Hive service, to easily process big datasets at low cost. Control your costs by quickly creating managed clusters of any size and turning them off when youre done. Cloud Dataproc integrates across Google Cloud Platform products, giving you a powerful and complete data processing platform.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dataproc.png",
+			"humanURL": "https://cloud.google.com/dataproc/",
+			"baseURL": "://dataproc.googleapis.com//",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/google-cloud-dataproc/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Cloud Datastore",
+			"x-api-slug": "google-cloud-datastore",
+			"description": "Cloud Datastore is a highly-scalable NoSQL database for your applications. Cloud Datastore automatically handles sharding and replication, providing you with a highly available and durable database that scales automatically to handle your applications load. Cloud Datastore provides a myriad of capabilities such as ACID transactions, SQL-like queries, indexes and much more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/nosql-tree.png",
+			"humanURL": "https://cloud.google.com/datastore/",
+			"baseURL": "://datastore.googleapis.com//",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/google-cloud-datastore/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Cloud Deployment Manager",
+			"x-api-slug": "google-cloud-deployment-manager",
+			"description": "Google Cloud Deployment Manager allows you to specify all the resources needed for your application in a declarative format using yaml. You can also use Python or Jinja2 templates to parameterize the configuration and allow reuse of common deployment paradigms such as a load balanced, auto-scaled instance group. Treat your configuration as code and perform repeatable deployments.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/repeatable-deployment-process.png",
+			"humanURL": "https://cloud.google.com/deployment-manager/",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/google-cloud-deployment-manager/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Service Management",
+			"x-api-slug": "google-service-management",
+			"description": "Google Service Management is an infrastructure service of Google Cloud Platform that manages other APIs and services, including Googles own Cloud Platform services and their APIs, and services created using Google Cloud Endpoints.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-icon.png",
+			"humanURL": "https://cloud.google.com/service-management/overview",
+			"baseURL": "://servicemanagement.googleapis.com//",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/google-service-management/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Container Service",
+			"x-api-slug": "azure-container-service",
+			"description": "Azure Container Service optimizes the configuration of popular open-source tools and technologies specifically for Azure. You get an open solution that offers portability for both your containers and your application configuration. You select the size, number of hosts, and choice of orchestrator tools&mdash;Container Service handles everything else.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-container-service.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/container-service/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/azure-container-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Resource Manager",
+			"x-api-slug": "azure-resource-manager",
+			"description": "Azure Resource Manager enables you to deploy and manage the infrastructure for your Azure solutions. You organize related resources in resource groups, and deploy your resources with JSON templates. For an introduction to deploying and managing resources with Resource Manager, see Azure Resource Manager overview.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-resource-manager.png",
+			"humanURL": "https://docs.microsoft.com/en-us/rest/api/resources/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/azure-resource-manager/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AXA Assistance",
+			"x-api-slug": "axa-assistance",
+			"description": "AXA Assistance is a worldwide specialist for car insurance, travel, health and home services. Trust in Axa Assistance for your insurance!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28187-www-axa-assistance-com.jpg",
+			"humanURL": "https://www.axa-assistance.com",
+			"baseURL": "https://sandbox.api.axa-assistance.com//",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/axa-assistance/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AppVeyor CI",
+			"x-api-slug": "appveyor-ci",
+			"description": "We provide continuous integration tools for Windows developers. The service is offered for free to open-source projects, we offer subscriptions for private projects and AppVeyor Enterprise installations on customer premises.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg",
+			"humanURL": "http://appveyor.com",
+			"baseURL": "https://ci.appveyor.com//api",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/appveyor-ci/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avaza",
+			"x-api-slug": "avaza",
+			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28373-avaza.jpg",
+			"humanURL": "https://www.avaza.com",
+			"baseURL": "https:///",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/avaza/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Apigee",
+			"x-api-slug": "apigee",
+			"description": "Apigee Edge is a platform for developing and managing API proxies. Think of a proxy as an abstraction layer that fronts for your backend service APIs and provides value-added features like security, rate limiting, quotas, analytics, and more. The primary consumers of Edge API proxies are app developers who want to use your backend services.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apigee-edge.png",
+			"humanURL": "https://docs.apigee.com/api-platform/get-started/what-apigee-edge",
+			"baseURL": "https://api.enterprise.apigee.com//v1/",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/apigee/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Predix",
+			"x-api-slug": "predix",
+			"description": "Predix (IoT PaaS) helps you develop apps that connect people with industrial machines through analytics and data for better business outcomes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png",
+			"humanURL": "https://www.predix.io",
+			"baseURL": "https:////v1",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/predix/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GitLab",
+			"x-api-slug": "gitlab",
+			"description": "GitLab is a web-based Git-repository manager with wiki, issue-tracking and CI/CD pipelines features, using an open-source license, developed by GitLab Inc.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/githlab-logo.png",
+			"humanURL": "http://gitlab.com",
+			"baseURL": "https://localhost:3000//api",
+			"tags": "Deployments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/gitlab/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Deployments",
+	"include": [
+		{
+			"name": "Rogue Wave Software",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/rogue-wave-software/apis.yaml"
+		},
+		{
+			"name": "Axway",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/axway/apis.yaml"
+		},
+		{
+			"name": "Socrata",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/socrata/apis.yaml"
+		},
+		{
+			"name": "Restlet",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/restlet/apis.yaml"
+		},
+		{
+			"name": "ApiAxle",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/apiaxle/apis.yaml"
+		},
+		{
+			"name": "GitHub",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/github/apis.yaml"
+		},
+		{
+			"name": "Diffbot",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/diffbot/apis.yaml"
+		},
+		{
+			"name": "46elks",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/46elks/apis.yaml"
+		},
+		{
+			"name": "SlashDB",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/slashdb/apis.yaml"
+		},
+		{
+			"name": "SwiftIQ",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/swiftiq/apis.yaml"
+		},
+		{
+			"name": "Import.io",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/import-io/apis.yaml"
+		},
+		{
+			"name": "Elasticsearch",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/elasticsearch/apis.yaml"
+		},
+		{
+			"name": "APImetrics",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/apimetrics/apis.yaml"
+		},
+		{
+			"name": "Cosmic",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/cosmic/apis.yaml"
+		},
+		{
+			"name": "nginx web server",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/nginx-web-server/apis.yaml"
+		},
+		{
+			"name": "StrongLoop",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/strongloop/apis.yaml"
+		},
+		{
+			"name": "Sheetlabs",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/sheetlabs/apis.yaml"
+		},
+		{
+			"name": "Docker",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/docker/apis.yaml"
+		},
+		{
+			"name": "CKAN",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/ckan/apis.yaml"
+		},
+		{
+			"name": "TIBCO Software",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/tibco-software/apis.yaml"
+		},
+		{
+			"name": "Tyk",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/tyk/apis.yaml"
+		},
+		{
+			"name": "WaveMaker",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/wavemaker/apis.yaml"
+		},
+		{
+			"name": "IBM Watson",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/ibm-watson/apis.yaml"
+		},
+		{
+			"name": "Service Stack",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/service-stack/apis.yaml"
+		},
+		{
+			"name": "Algorithmia",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/algorithmia/apis.yaml"
+		},
+		{
+			"name": "OpenLegacy",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/openlegacy/apis.yaml"
+		},
+		{
+			"name": "deployd",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/deployd/apis.yaml"
+		},
+		{
+			"name": "Apigility",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/apigility/apis.yaml"
+		},
+		{
+			"name": "Django REST",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/django-rest/apis.yaml"
+		},
+		{
+			"name": "Apache Wink",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/apache-wink/apis.yaml"
+		},
+		{
+			"name": "RESTBase",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/restbase/apis.yaml"
+		},
+		{
+			"name": "OpenRasta",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/openrasta/apis.yaml"
+		},
+		{
+			"name": "Seneca JS",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/seneca-js/apis.yaml"
+		},
+		{
+			"name": "BinaryOps.io",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/binaryops-io/apis.yaml"
+		},
+		{
+			"name": "Apache Solr",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/apache-solr/apis.yaml"
+		},
+		{
+			"name": "CA Technologies",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/ca-technologies/apis.yaml"
+		},
+		{
+			"name": "Apache Knox",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/apache-knox/apis.yaml"
+		},
+		{
+			"name": "Jexia",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/jexia/apis.yaml"
+		},
+		{
+			"name": "OpsGen",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/opsgen/apis.yaml"
+		},
+		{
+			"name": "Nodal",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/nodal/apis.yaml"
+		},
+		{
+			"name": "Fieldbook",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/fieldbook/apis.yaml"
+		},
+		{
+			"name": "WrapAPI",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/wrapapi/apis.yaml"
+		},
+		{
+			"name": "weblab",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/weblab/apis.yaml"
+		},
+		{
+			"name": "Goa",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/goa/apis.yaml"
+		},
+		{
+			"name": "RESTX",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/restx/apis.yaml"
+		},
+		{
+			"name": "Webtask",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/webtask/apis.yaml"
+		},
+		{
+			"name": "Apache Karaf",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/apache-karaf/apis.yaml"
+		},
+		{
+			"name": "API Platform",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/api-platform/apis.yaml"
+		},
+		{
+			"name": "Micro",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/micro/apis.yaml"
+		},
+		{
+			"name": "hook.io",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/hook-io/apis.yaml"
+		},
+		{
+			"name": "Hewlett Packard Enterprise (HPE)",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/hewlett-packard-enterprise-hpe/apis.yaml"
+		},
+		{
+			"name": "Apimint",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/apimint/apis.yaml"
+		},
+		{
+			"name": "New Relic",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/new-relic/apis.yaml"
+		},
+		{
+			"name": "AWS EC2 Container Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/aws-ec2-container-service/apis.yaml"
+		},
+		{
+			"name": "AWS Elastic Beanstalk",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/aws-elastic-beanstalk/apis.yaml"
+		},
+		{
+			"name": "AWS Lambda",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/aws-lambda/apis.yaml"
+		},
+		{
+			"name": "AWS Storage Gateway Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/aws-storage-gateway-service/apis.yaml"
+		},
+		{
+			"name": "AWS CodeDeploy",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/aws-codedeploy/apis.yaml"
+		},
+		{
+			"name": "AWS EC2 Systems Manager",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/aws-ec2-systems-manager/apis.yaml"
+		},
+		{
+			"name": "AWS CloudFormation",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/aws-cloudformation/apis.yaml"
+		},
+		{
+			"name": "AWS OpsWorks",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/aws-opsworks/apis.yaml"
+		},
+		{
+			"name": "AWS API Gateway",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/aws-api-gateway/apis.yaml"
+		},
+		{
+			"name": "AWS Auto Scaling",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/aws-auto-scaling/apis.yaml"
+		},
+		{
+			"name": "Google App Engine",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/google-app-engine/apis.yaml"
+		},
+		{
+			"name": "Google Biquery",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/google-biquery/apis.yaml"
+		},
+		{
+			"name": "Google Cloud Container Builder",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/google-cloud-container-builder/apis.yaml"
+		},
+		{
+			"name": "Google Cloud Functions",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/google-cloud-functions/apis.yaml"
+		},
+		{
+			"name": "Google Compute Engine",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/google-compute-engine/apis.yaml"
+		},
+		{
+			"name": "Google Container Engine",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/google-container-engine/apis.yaml"
+		},
+		{
+			"name": "Google Cloud Dataproc",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/google-cloud-dataproc/apis.yaml"
+		},
+		{
+			"name": "Google Cloud Datastore",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/google-cloud-datastore/apis.yaml"
+		},
+		{
+			"name": "Google Cloud Deployment Manager",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/google-cloud-deployment-manager/apis.yaml"
+		},
+		{
+			"name": "Google Service Management",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/google-service-management/apis.yaml"
+		},
+		{
+			"name": "Azure Container Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/azure-container-service/apis.yaml"
+		},
+		{
+			"name": "Azure Resource Manager",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/azure-resource-manager/apis.yaml"
+		},
+		{
+			"name": "AXA Assistance",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/axa-assistance/apis.yaml"
+		},
+		{
+			"name": "AppVeyor CI",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/appveyor-ci/apis.yaml"
+		},
+		{
+			"name": "Avaza",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/avaza/apis.yaml"
+		},
+		{
+			"name": "Apigee",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/apigee/apis.yaml"
+		},
+		{
+			"name": "Predix",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/predix/apis.yaml"
+		},
+		{
+			"name": "GitLab",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/gitlab/apis.yaml"
+		}
+	]
+}

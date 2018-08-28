@@ -6,8 +6,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20078-micr
 x-kinRank: "8"
 x-alexaRank: "1919823"
 tags: Deployments
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/deployments/master/_listings/micro/apis.md
 specificationVersion: "0.14"
 apis: []
